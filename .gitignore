@@ -4,7 +4,7 @@
     <head>
     <title>Voctoria Google Maps</title>    
   	<meta charset="utf-8">
-  	<meta name="description" content="Voctoria Google">
+  	<meta name="description" content="Voctoria Maps">
   	<meta name="keywords"    content="HTML, CSS, JavaScript">
   	<meta name="author"      content="Ali MN">
 	<style>
@@ -26,8 +26,7 @@
 	    var location = {lat: -36.9848, lng: 143.3906};
 	    var map = new google.maps.Map(document.getElementById("map"), 
 	    {zoom: 7,
-	      center: location
-	      
+	      center: location	      
 	    });
 	  }
 	</script>
